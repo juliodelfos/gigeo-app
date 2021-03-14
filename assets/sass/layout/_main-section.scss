@@ -1,0 +1,21 @@
+.videos {
+    padding: 2rem 0;
+    &__thumbail {
+        width: 100%;
+        padding-bottom: .5rem;
+    }
+    &__title {
+        font-family: $montserrat;
+        font-weight: $montserrat-bold;
+        font-size: $medium;
+        padding: 0;
+        margin: 0;
+    }
+    &__stadistics {
+        font-family: $montserrat;
+        font-weight: $montserrat-medium;
+        font-size: $medium;
+        padding: 0;
+        margin: 0;
+    }
+}

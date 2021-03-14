@@ -9995,4 +9995,26 @@ h3 {
   border-color: #ef6461;
 }
 
+.videos {
+  padding: 2rem 0;
+}
+.videos__thumbail {
+  width: 100%;
+  padding-bottom: 0.5rem;
+}
+.videos__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+.videos__stadistics {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
 /*# sourceMappingURL=main.css.map */
