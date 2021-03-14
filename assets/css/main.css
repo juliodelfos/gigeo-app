@@ -9945,8 +9945,11 @@ h3 {
   margin-left: auto;
 }
 .navbar__icon {
-  padding-right: 1rem;
+  padding-left: 1rem;
   font-size: 18px;
+}
+.navbar__icon--menu {
+  color: #55595c;
 }
 
 .header {
@@ -9954,7 +9957,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 15rem;
+  height: 20vw;
 }
 
 .profile {
@@ -9984,7 +9987,7 @@ h3 {
   margin: 0;
 }
 .profile__button {
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 .profile__button--message {
   background-color: #93dce5;
@@ -10006,12 +10009,12 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  padding: 0;
+  padding: 0.3rem 0;
   margin: 0;
 }
 .videos__stadistics {
   font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: 200;
   font-size: 16px;
   padding: 0;
   margin: 0;
