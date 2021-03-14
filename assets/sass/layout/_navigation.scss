@@ -1,0 +1,18 @@
+.navbar {
+    background-color: $white !important;
+    text-decoration: none;
+    font-family: $poppins;
+    &__brand {
+        font-size: xx-large;
+    }
+    &__toptext {
+        font-size: $small;
+    }
+    &__icons {
+        margin-left: auto;
+    }
+    &__icon {
+        padding-right: 1rem;
+        font-size: $large;
+    }
+}

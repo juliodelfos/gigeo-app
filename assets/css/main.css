@@ -9930,5 +9930,69 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.navbar {
+  background-color: #fff !important;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.navbar__brand {
+  font-size: xx-large;
+}
+.navbar__toptext {
+  font-size: 12px;
+}
+.navbar__icons {
+  margin-left: auto;
+}
+.navbar__icon {
+  padding-right: 1rem;
+  font-size: 18px;
+}
+
+.header {
+  background: url(/assets/images/image-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15rem;
+}
+
+.profile {
+  padding: 1.3rem 0;
+}
+.profile__avatar {
+  display: inline-block;
+}
+.profile__img {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: inline-block;
+}
+.profile__name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.profile__follows {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.profile__button {
+  border-radius: 0 !important;
+}
+.profile__button--message {
+  background-color: #93dce5;
+  border-color: #93dce5;
+}
+.profile__button--follow {
+  background-color: #ef6461;
+  border-color: #ef6461;
+}
 
 /*# sourceMappingURL=main.css.map */

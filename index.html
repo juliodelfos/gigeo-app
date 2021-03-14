@@ -19,13 +19,22 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="/assets/images/logo.svg" width="120" height="60" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light "> -->
+    <nav class="navbar navbar-light ">
+        <div class="container">
+            <a class="navbar-brand navbar__brand" href="#">GIGEO<span class="align-top navbar__toptext">ART</span> </a>
+            <div class="navbar__icons d-none d-sm-none d-md-block">
+                <i class="navbar__icon fas fa-search"></i>
+                <i class="navbar__icon fas fa-video"></i>
+                <i class="navbar__icon fas fa-plus"></i>
+                <i class="navbar__icon fas fa-bell"></i>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -40,8 +49,33 @@
                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                 </li>
             </ul>
+        </div> -->
         </div>
     </nav>
+
+    <header class="header"></header>
+
+    <section class="profile border-bottom">
+        <div class="container profile__container">
+            <div class="row profile__row">
+                <div class="col-sm-12 col-lg-4 profile__avatar align-middle">
+                    <span><img class="profile__img mr-2" src="/assets/images/profile-image.png" alt=""></span>
+                    <span class="profile__name">Yuki Mukami</span>
+                    <span class="profile__follows">30.000 seguidores</span>
+                </div>
+                <div class="col profile__empty d-none d-sm-none d-md-block">
+                </div>
+                <div class="col profile__empty d-none d-sm-none d-md-block">
+                </div>
+                <div class="col profile__buttons-container d-none d-sm-none d-md-block">
+                    <button type="button"
+                        class="btn btn-primary profile__button profile__button--message mr-2">Mensaje</button>
+                    <button type="button"
+                        class="btn btn-primary profile__button profile__button--follow">Seguir</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </body>
 
