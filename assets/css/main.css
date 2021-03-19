@@ -9930,6 +9930,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+hr {
+  margin: 0;
+}
+
 .navbar {
   background-color: #fff !important;
   text-decoration: none;
@@ -9964,7 +9968,7 @@ h3 {
   padding: 1.3rem 0;
 }
 .profile__avatar {
-  display: inline-block;
+  display: flex;
 }
 .profile__img {
   border-radius: 50%;

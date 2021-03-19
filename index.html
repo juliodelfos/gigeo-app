@@ -56,21 +56,27 @@
         </div>
     </nav>
 
-    <header class="header "></header>
+    <header class="header"></header>
 
-    <section class="profile border-bottom">
+    <section class="profile">
         <div class="container profile__container">
             <div class="row profile__row">
-                <div class="col-sm-12 col-lg-4 profile__avatar align-middle">
-                    <span><img class="profile__img mr-2" src="/assets/images/profile-image.png" alt=""></span>
-                    <span class="profile__name">Yuki Mukami</span>
-                    <span class="profile__follows">30.000 seguidores</span>
+
+                <div class="col-sm-12 col-lg-4 profile__avatar">
+                    <div>
+                        <img class="profile__img mr-2" src="/assets/images/profile-image.png" alt="">
+                    </div>
+
+                    <div>
+                        <p class="profile__name pt-2">Yuki Mukami</p><p class="profile__follows">30.000 seguidores</p>
+                    </div>
                 </div>
+
                 <div class="col profile__empty d-none d-sm-none d-md-block">
                 </div>
                 <div class="col profile__empty d-none d-sm-none d-md-block">
                 </div>
-                <div class="col profile__buttons-container d-none d-sm-none d-md-block">
+                <div class="col profile__buttons-container d-none d-sm-none d-md-block pt-2 text-right">
                     <button type="button"
                         class="btn btn-primary profile__button profile__button--message mr-2">Mensaje</button>
                     <button type="button"
@@ -79,6 +85,8 @@
             </div>
         </div>
     </section>
+
+    <hr class="d-none d-sm-block">
 
     <main class="videos">
         <div class="container">
